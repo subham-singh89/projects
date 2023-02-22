@@ -3,7 +3,6 @@
 #include <iostream>
 using namespace std;
 
-
 void merge(int arr[], int p, int q, int r) {
   
   
@@ -69,7 +68,11 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-  int arr[] = {6, 5, 12, 10, 9, 1};
+  int arr[10];
+  int i;
+  for(i=0;i<10;i++)
+  {  cin>>arr[i];
+  };
   int size = sizeof(arr) / sizeof(arr[0]);
 
   mergeSort(arr, 0, size - 1);
