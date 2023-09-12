@@ -66,7 +66,7 @@ class SingleyLinkedList
 				else
 				{
 					Node *ptr=head;
-			while(ptr!=NULL)
+			while(ptr->next!=NULL)
 				{
 				
 					ptr=ptr->next;
